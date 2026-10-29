@@ -1,0 +1,13 @@
+1. Install the tools once:
+
+
+winget install Microsoft.DotNet.SDK.10
+winget install Git.Git
+Then open a new terminal so it picks them up.
+
+2. Clone and run:
+
+git clone https://github.com/CalabarBatman/RacingAudioSpotter.git
+cd RacingAudioSpotter
+dotnet test
+dotnet run --project src/RacingAudioSpotter
